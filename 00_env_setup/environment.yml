@@ -1,0 +1,21 @@
+name: analyst60
+channels:
+    - conda-forge
+dependencies:
+    - python=3.11
+    - pandas
+    - numpy
+    - jupyter
+    - jupyterlab
+    - matplotlib
+    - seaborn
+    - plotly
+    - openpyxl
+    - xlrd
+    - sqlalchemy
+    - pip
+    - pip:
+        - yfinance
+        - kaggle
+        - openai
+        - python-dotenv
